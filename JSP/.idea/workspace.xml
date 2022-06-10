@@ -10,22 +10,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed43fdb2-b127-4195-af47-3751021281da" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/json_simple_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_24.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/servlet_api.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/json-simple-1.1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/mysql-connector-java-8.0.24.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/servlet-api.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/backend/controller/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/backend/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/backend/model/DBManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JSP.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backend/controller/DocumentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backend/domain/Document.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backend/domain/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/success.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/success.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ba81f3f5-4f2f-47e3-a723-ab029eb2e862.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ba81f3f5-4f2f-47e3-a723-ab029eb2e862.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JSP_Web_exploded/WEB-INF/classes/backend/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JSP_Web_exploded/WEB-INF/classes/backend/controller/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JSP_Web_exploded/WEB-INF/classes/backend/model/DBManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JSP_Web_exploded/WEB-INF/classes/backend/model/DBManager.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/JSP_Web_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JSP_Web_exploded/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/JSP_Web_exploded/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JSP_Web_exploded/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JSP/backend/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JSP/backend/controller/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JSP/backend/model/DBManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JSP/backend/model/DBManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backend/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backend/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backend/model/DBManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backend/model/DBManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.html" afterDir="false" />
     </list>
@@ -37,7 +37,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Jsp File" />
         <option value="Class" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -82,6 +84,7 @@
   <component name="RunManager">
     <configuration name="Tomcat 10.0.21" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.0.21" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="OPEN_IN_BROWSER" value="false" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/JSP_Web_exploded" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="JSP:Web exploded">
@@ -180,6 +183,10 @@
       <workItem from="1654692399077" duration="345000" />
       <workItem from="1654692764203" duration="719000" />
       <workItem from="1654693508245" duration="3905000" />
+      <workItem from="1654761999219" duration="1448000" />
+      <workItem from="1654763482975" duration="592000" />
+      <workItem from="1654767383030" duration="5000" />
+      <workItem from="1654863299019" duration="7334000" />
     </task>
     <servers />
   </component>
@@ -196,5 +203,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

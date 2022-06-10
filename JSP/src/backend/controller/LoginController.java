@@ -29,14 +29,16 @@ public class LoginController extends HttpServlet{
 
         if(user.getUsername() != null)
         {
-            // TODO success.jsp and error.jsp
             requestDispatcher = request.getRequestDispatcher("/success.jsp");
 
             // Set session
             HttpSession httpSession = request.getSession();
             httpSession.setAttribute("user", user);
-
-            // TODO check in all servlets whether Attribute "user" is set. -> else, return
         }
+        else {
+            requestDispatcher = request.getRequestDispatcher("/error.jsp");
+        }
+
+        requestDispatcher.forward(request, response);
     }
 }

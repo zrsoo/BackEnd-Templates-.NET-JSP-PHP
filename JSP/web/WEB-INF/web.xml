@@ -14,4 +14,14 @@
         <url-pattern>/LoginController</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>DocumentController</servlet-name>
+        <servlet-class>backend.controller.DocumentController</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>DocumentController</servlet-name>
+        <url-pattern>/DocumentController</url-pattern>
+    </servlet-mapping>
+    
 </web-app>
