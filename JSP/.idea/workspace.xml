@@ -9,7 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed43fdb2-b127-4195-af47-3751021281da" name="Changes" comment="Created Document and Movie;&#10;Created DB for Document, Movie;&#10;Created DocumentController;&#10;Created Add Document form on success.jsp;" />
+    <list default="true" id="ed43fdb2-b127-4195-af47-3751021281da" name="Changes" comment="Created Document and Movie;&#10;Created DB for Document, Movie;&#10;Created DocumentController;&#10;Created Add Document form on success.jsp;">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ba81f3f5-4f2f-47e3-a723-ab029eb2e862.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ba81f3f5-4f2f-47e3-a723-ab029eb2e862.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -177,7 +180,8 @@
       <workItem from="1654767383030" duration="5000" />
       <workItem from="1654863299019" duration="7665000" />
       <workItem from="1655200426076" duration="4690000" />
-      <workItem from="1655206136356" duration="7544000" />
+      <workItem from="1655206136356" duration="8155000" />
+      <workItem from="1655215730639" duration="75000" />
     </task>
     <task id="LOCAL-00001" summary="Created Document and Movie;&#10;Created DB for Document, Movie;&#10;Created DocumentController;&#10;Created Add Document form on success.jsp;">
       <created>1654875131641</created>
