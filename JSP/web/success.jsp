@@ -35,5 +35,57 @@
 
 <button id="addDocumentBtn">Add document</button>
 
+<section>
+    <table id="documentTable"></table>
+</section>
+
+<section>
+    <p id="popularDocument">Most popular document: </p>
+</section>
+
 </body>
 </html>
+
+<script>
+    $(document).ready(function () {
+        $("#addDocumentBtn").click(function() {
+            addDocument();
+        });
+
+        getDocumentsByUser(<%=user.getId()%>, function(documents) {
+            console.log(documents);
+
+            let objectTable = $("#documentTable");
+
+            objectTable.html("");
+            objectTable.append("<tr>" +
+                "<td>Id</td>" +
+                "<td>Name</td>" +
+                "<td>Contents</td>" +
+                "</tr>");
+
+            documents.forEach(document => {
+                if(document.name != undefined) {
+                    objectTable.append("<tr>" +
+                        "<td>" + document.id + "</td>" +
+                        "<td>" + document.name + "</td>" +
+                        "<td>" + document.contents + "</td>" +
+                        "</tr>")
+                }
+                else
+                {
+                    objectTable.append("<tr>" +
+                        "<td>" + document.id + "</td>" +
+                        "<td>" + document.title + "</td>" +
+                        "<td>" + document.duration + "</td>" +
+                        "</tr>")
+                }
+            });
+        });
+
+        getMostPopularDocument(function (document) {
+            console.log(document);
+            $("#popularDocument").append(document.name + " " + document.contents);
+        })
+    });
+</script>

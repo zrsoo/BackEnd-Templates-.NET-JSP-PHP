@@ -9,25 +9,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed43fdb2-b127-4195-af47-3751021281da" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/backend/controller/DocumentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/backend/domain/Document.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/backend/domain/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/error.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/success.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/success.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ba81f3f5-4f2f-47e3-a723-ab029eb2e862.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ba81f3f5-4f2f-47e3-a723-ab029eb2e862.xml" afterDir="false" />
+    <list default="true" id="ed43fdb2-b127-4195-af47-3751021281da" name="Changes" comment="Created Document and Movie;&#10;Created DB for Document, Movie;&#10;Created DocumentController;&#10;Created Add Document form on success.jsp;">
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/JSP_Web_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/JSP_Web_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/JSP_Web_exploded/WEB-INF/classes/backend/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JSP_Web_exploded/WEB-INF/classes/backend/controller/LoginController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/JSP_Web_exploded/WEB-INF/classes/backend/model/DBManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JSP_Web_exploded/WEB-INF/classes/backend/model/DBManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/JSP_Web_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JSP_Web_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/JSP_Web_exploded/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JSP_Web_exploded/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JSP/backend/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JSP/backend/controller/LoginController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JSP/backend/model/DBManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JSP/backend/model/DBManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/backend/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backend/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backend/controller/DocumentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backend/controller/DocumentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backend/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backend/domain/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/backend/model/DBManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backend/model/DBManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/js/success.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/success.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/success.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/success.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +36,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -71,10 +70,10 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.20852534" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -186,8 +185,18 @@
       <workItem from="1654761999219" duration="1448000" />
       <workItem from="1654763482975" duration="592000" />
       <workItem from="1654767383030" duration="5000" />
-      <workItem from="1654863299019" duration="7334000" />
+      <workItem from="1654863299019" duration="7665000" />
+      <workItem from="1655200426076" duration="4690000" />
+      <workItem from="1655206136356" duration="6316000" />
     </task>
+    <task id="LOCAL-00001" summary="Created Document and Movie;&#10;Created DB for Document, Movie;&#10;Created DocumentController;&#10;Created Add Document form on success.jsp;">
+      <created>1654875131641</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1654875131641</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,5 +213,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Created Document and Movie;&#10;Created DB for Document, Movie;&#10;Created DocumentController;&#10;Created Add Document form on success.jsp;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created Document and Movie;&#10;Created DB for Document, Movie;&#10;Created DocumentController;&#10;Created Add Document form on success.jsp;" />
   </component>
 </project>

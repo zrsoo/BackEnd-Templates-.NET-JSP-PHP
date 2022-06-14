@@ -1,6 +1,25 @@
-$(document).ready(function () {
-    $("#addDocumentBtn").click(function () {
-        alert("press");
-        // TODO function that sends post request to DocumentController -> to add document, and put it here
-    });
-});
+function addDocument() {
+    $.post("DocumentController",
+        {
+            documentId: $("#documentId").val(),
+            documentName: $("#documentName").val(),
+            documentContents: $("#documentContents").val()
+        })
+}
+
+function getDocumentsByUser(userId, callbackFunction) {
+    $.getJSON("DocumentController",
+        {
+            action: "getDocuments",
+            userId: userId
+        },
+        callbackFunction);
+}
+
+function getMostPopularDocument(callbackFunction) {
+    $.getJSON("DocumentController",
+        {
+            action: "getMostPopularDocument"
+        },
+        callbackFunction)
+}

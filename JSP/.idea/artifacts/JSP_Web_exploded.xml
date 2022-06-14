@@ -7,6 +7,10 @@
         <element id="directory" name="classes">
           <element id="module-output" name="JSP" />
         </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="json-simple-1.1.1" />
+          <element id="library" level="project" name="mysql-connector-java-8.0.24" />
+        </element>
       </element>
     </root>
   </artifact>
