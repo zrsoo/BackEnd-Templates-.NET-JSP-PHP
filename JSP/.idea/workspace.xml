@@ -9,17 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed43fdb2-b127-4195-af47-3751021281da" name="Changes" comment="Created Document and Movie;&#10;Created DB for Document, Movie;&#10;Created DocumentController;&#10;Created Add Document form on success.jsp;">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/JSP_Web_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/JSP_Web_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/JSP_Web_exploded/WEB-INF/classes/backend/model/DBManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JSP_Web_exploded/WEB-INF/classes/backend/model/DBManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JSP/backend/model/DBManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JSP/backend/model/DBManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/backend/controller/DocumentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backend/controller/DocumentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/backend/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backend/domain/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/backend/model/DBManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backend/model/DBManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/js/success.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/success.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/success.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/success.jsp" afterDir="false" />
-    </list>
+    <list default="true" id="ed43fdb2-b127-4195-af47-3751021281da" name="Changes" comment="Created Document and Movie;&#10;Created DB for Document, Movie;&#10;Created DocumentController;&#10;Created Add Document form on success.jsp;" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -70,7 +60,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.20852534" />
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
@@ -187,7 +177,7 @@
       <workItem from="1654767383030" duration="5000" />
       <workItem from="1654863299019" duration="7665000" />
       <workItem from="1655200426076" duration="4690000" />
-      <workItem from="1655206136356" duration="6316000" />
+      <workItem from="1655206136356" duration="7544000" />
     </task>
     <task id="LOCAL-00001" summary="Created Document and Movie;&#10;Created DB for Document, Movie;&#10;Created DocumentController;&#10;Created Add Document form on success.jsp;">
       <created>1654875131641</created>
